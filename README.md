@@ -1,4 +1,4 @@
-# Project: LLM Optimization with LoRA and Dynamic Adapter
+# Project: Efficient Task Adaptation for Transformers with Dynamic LoRA-Adapters
 
 This project implements and compares baseline, LoRA, and LoRA + Dynamic Adapter models for sequence-to-sequence learning tasks using the CNN/DailyMail dataset. Below are the instructions to preprocess data, train models, evaluate performance, analyze errors, and launch the Streamlit app for results visualization.
 
