@@ -1,0 +1,1 @@
+{'training_time': 35.085214138031006, 'max_gpu_memory': 0.0}

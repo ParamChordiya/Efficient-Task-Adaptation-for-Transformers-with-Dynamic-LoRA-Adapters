@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+peft
+accelerate
+streamlit
+absl-py 
+rouge-score 
+nltk
+evaluate

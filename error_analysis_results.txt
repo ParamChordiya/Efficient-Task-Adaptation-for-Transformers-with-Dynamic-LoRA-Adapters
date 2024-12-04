@@ -1,0 +1,50 @@
+=== Overly Long Articles ===
+Description: Test model's handling of overly long articles exceeding token limits.
+Input: This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article.
+Summary: . This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article. This is a very long article
+
+=== Ambiguous Contexts ===
+Description: Test model's ability to identify the main theme among multiple topics.
+Input: The project was started in 1999. It was successful. Meanwhile, other projects failed. The main goal was education.
+Summary: Das Projekt began in 1999, es war erfolgreich, andere Projekte scheitern.
+
+=== Complex Syntax ===
+Description: Test model's handling of sentences with complex structures.
+Input: Despite the report being filed late, which was unexpected considering the strict deadlines, the conclusion was accepted without hesitation by all members.
+Summary: Despite the report being filed late, which was unexpected considering the strict deadlines, the conclusion was accepted without hesitation by all members.
+
+=== Out-of-Domain Examples ===
+Description: Test model's ability to summarize niche scientific content.
+Input: The Higgs boson particle, crucial for understanding the mass of subatomic particles, was discovered at CERN using the LHC in 2012.
+Summary: Die Higgs boson particle, crucial for understanding the mass of subatomic particles, was discovered at CERN using the LHC in 2012.
+
+=== Contextual Misalignment ===
+Description: Test model's ability to focus on relevant context when there is lexical overlap.
+Input: The financial crisis of 2008, also known as the Great Recession, and the crisis of 1929 share many similarities. However, the responses differed significantly.
+Summary: 2008, also known as the Great Recession, and the crisis of 1929 share many similarities, but the responses differed significantly.
+
+=== Ambiguous Pronoun References ===
+Description: Test model's handling of ambiguous pronouns.
+Input: John told Peter he needed to finish the report before the deadline. He agreed and started working immediately.
+Summary: John told Peter he needed to finish the report before the deadline, agreed and started working immediately.
+
+=== Extreme Length Variability ===
+Description: Test model's handling of very short articles.
+Input: The cat sat on the mat.
+Summary: Le chat sat on the mat.
+
+=== Shifting Focal Points ===
+Description: Test model's ability to summarize articles with shifting focal points.
+Input: The politician started by discussing healthcare policies but quickly moved to personal anecdotes about his childhood.
+Summary: Der Politiker begann mit der Diskussion der Gesundheitspolitik, aber wechselte schnell zu persönlichen Anekdoten über seine Kindheit.
+
+=== Rare Vocabulary ===
+Description: Test model's ability to handle domain-specific vocabulary.
+Input: The article delved into the intricacies of chromatophore functionality in cephalopods, highlighting their ability to change color via neuromuscular activation.
+Summary: delved into the intricacies of chromatophore functionality in cephalopods, highlighting their ability to change color via neuromuscular activation.
+
+=== Indirect Speech ===
+Description: Test model's handling of indirect speech.
+Input: The professor stated that the theory was groundbreaking. However, she warned that further research was necessary.
+Summary: The professor stated that the theory was groundbreaking, but warned that further research was necessary.
+
